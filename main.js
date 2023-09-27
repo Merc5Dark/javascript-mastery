@@ -33,4 +33,5 @@ const todos = [
     }
 ]
 
-console.log(todos);
+const todoJSON = JSON.stringify(todos);
+console.log(todoJSON);
